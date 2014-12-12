@@ -23,7 +23,13 @@ nav img{
  	height: 30px;
  	padding-top: 10px;
  }
+[type="text"]{
+	width: 100px;
+}
 
+[type="text"]:focus{
+	width: 180px;
+}
  input{
  	float: right;
  	margin-top: 15px;
