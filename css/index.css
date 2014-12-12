@@ -1,0 +1,49 @@
+.navbar{
+	height: 50px;
+	background-color: #123456;
+}
+
+body{
+	font-family: "Times New Roman",Times,serif;
+	font-size: 20px;
+	color: #ffffff;
+}
+
+nav img{
+	height: 50px;
+	width: 50px;
+}
+ [src="img/123.jpg"],ul,input,img{
+ 	float: left;
+ 	margin: 0 20px;
+ }
+ [src="img/weibo.png"],[src="img/weixin.jpg"]{
+ 	float: right;
+ 	width: 30px;
+ 	height: 30px;
+ 	padding-top: 10px;
+ }
+
+ input{
+ 	float: right;
+ 	margin-top: 15px;
+ 	font-size: 14px;
+ 	height: 20px;
+ }
+
+ ul{
+  	width: 120px;
+ 	line-height: 50px;
+ 	text-align: center;
+ }
+ li{
+ 	list-style-type: none;
+ 	color: #123456;
+ 	background-color: #ffeedd;
+ 	list-style-position: inherit;
+ 	border: 1px solid;
+ 	font-size: 14px;
+ 	height: 25px;
+ 	padding: 5px 10px;
+ 	line-height: 15px;
+ }
