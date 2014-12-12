@@ -25,6 +25,7 @@ nav img{
  }
 [type="text"]{
 	width: 100px;
+	transition: width 1s;
 }
 
 [type="text"]:focus{
