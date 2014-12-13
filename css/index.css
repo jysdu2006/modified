@@ -8,11 +8,17 @@ body{
 	font-size: 20px;
 	color: #ffffff;
 }
-
+nav{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+}
 nav img{
 	height: 50px;
 	width: 50px;
 }
+
  [src="img/123.jpg"],ul,input,img{
  	float: left;
  	margin: 0 20px;
@@ -26,6 +32,20 @@ nav img{
 [type="text"]{
 	width: 100px;
 	transition: width 1s;
+}
+
+[type="button"]{
+	height: 30px;
+	width: 80px;
+	border-radius: 5px;
+	background-color: #111111;
+	color: #f87654;
+	margin-top: 10px;
+}
+[type="button"]:hover{
+	background-color: #C1CDCD;
+	color: #A020F0;
+	font-size: 18px;
 }
 
 [type="text"]:focus{
