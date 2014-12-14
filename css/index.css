@@ -74,3 +74,17 @@ nav img{
  	padding: 5px 10px;
  	line-height: 15px;
  }
+
+.picshow{
+	margin-top: 80px;
+	width: 50%;
+	margin-left: 100px;
+}
+ .picshow img{
+ 	width: inherit;
+ 	float: left;
+ }
+ #testimg{
+ 	position: relative;
+ 	top: -100px;
+ }
